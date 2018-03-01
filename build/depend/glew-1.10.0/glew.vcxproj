@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{3DD02727-8086-339D-B415-573ACF4D72D3}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>glew</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glew.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glew</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glew.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glew</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">glew.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">glew</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">glew.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">glew</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;_CRT_SECURE_NO_WARNINGS;GLEW_BUILD;GLEW_NO_GLU;CMAKE_INTDIR="Debug";glew_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;_CRT_SECURE_NO_WARNINGS;GLEW_BUILD;GLEW_NO_GLU;CMAKE_INTDIR=\"Debug\";glew_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Debug/glew.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Debug/glew.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;_CRT_SECURE_NO_WARNINGS;GLEW_BUILD;GLEW_NO_GLU;CMAKE_INTDIR="Release";glew_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;_CRT_SECURE_NO_WARNINGS;GLEW_BUILD;GLEW_NO_GLU;CMAKE_INTDIR=\"Release\";glew_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Release/glew.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Release/glew.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;_CRT_SECURE_NO_WARNINGS;GLEW_BUILD;GLEW_NO_GLU;CMAKE_INTDIR="MinSizeRel";glew_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;_CRT_SECURE_NO_WARNINGS;GLEW_BUILD;GLEW_NO_GLU;CMAKE_INTDIR=\"MinSizeRel\";glew_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/MinSizeRel/glew.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/MinSizeRel/glew.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;_CRT_SECURE_NO_WARNINGS;GLEW_BUILD;GLEW_NO_GLU;CMAKE_INTDIR="RelWithDebInfo";glew_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;_CRT_SECURE_NO_WARNINGS;GLEW_BUILD;GLEW_NO_GLU;CMAKE_INTDIR=\"RelWithDebInfo\";glew_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/RelWithDebInfo/glew.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/RelWithDebInfo/glew.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include\GL\glew.h" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include\GL\wglew.h" />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\src\glew.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/ZERO_CHECK.vcxproj">
+      <Project>321EC8A3-FC15-3C96-902C-52A351567DCE</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

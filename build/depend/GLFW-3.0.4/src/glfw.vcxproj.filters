@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\clipboard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\gamma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\win32_clipboard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\win32_gamma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\win32_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\win32_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\win32_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\win32_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\win32_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\wgl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\src\glfw_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include\GLFW\glfw3native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\win32_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\wgl_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E69A29DF-D012-36E3-AFA8-49921638F491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A9E81258-F943-3CCD-BD73-D7F8EDEE73F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

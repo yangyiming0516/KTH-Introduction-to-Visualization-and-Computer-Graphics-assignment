@@ -1,0 +1,14 @@
+﻿  Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt
+  CMake does not need to re-run because E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp is up-to-date.
+  BVTree.cpp
+  Camera.cpp
+  CollisionGeometry.cpp
+  CollisionScene.cpp
+  IndexedTriangleIO.cpp
+  Math.cpp
+  RaytracerWindow.cpp
+  ShaderProgram.cpp
+  TriangleGeometry.cpp
+  Generating Code...
+     Creating library E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Debug/opengl.lib and object E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Debug/opengl.exp
+  opengl.vcxproj -> E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\Debug\opengl.dll

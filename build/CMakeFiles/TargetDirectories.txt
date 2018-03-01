@@ -1,0 +1,9 @@
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/CMakeFiles/ALL_BUILD.dir
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/CMakeFiles/ZERO_CHECK.dir
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/depend/GLFW-3.0.4/CMakeFiles/ALL_BUILD.dir
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/depend/GLFW-3.0.4/src/CMakeFiles/glfw.dir
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/depend/glew-1.10.0/CMakeFiles/glew.dir
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/exercises/opengl/CMakeFiles/opengl.dir
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/exercises/raytracer/CMakeFiles/raytracer.dir
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/exercises/raytracer_task1/CMakeFiles/raytracer_task1.dir
+E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/exercises/raytracer_task2/CMakeFiles/raytracer_task2.dir

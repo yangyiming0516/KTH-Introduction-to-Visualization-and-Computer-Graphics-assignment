@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\BVTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CollisionGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CollisionScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\IndexedTriangleIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\RaytracerWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\TriangleGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\BVTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Collision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CollisionGeometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CollisionScene.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\IndexedTriangleIO.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Intersection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Math.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\OpenGL.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\RaytracerWindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\ShaderProgram.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\TriangleGeometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\openglConfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E69A29DF-D012-36E3-AFA8-49921638F491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A9E81258-F943-3CCD-BD73-D7F8EDEE73F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

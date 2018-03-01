@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\raytracer_task2\raytracer_task2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\raytracer_task2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E69A29DF-D012-36E3-AFA8-49921638F491}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

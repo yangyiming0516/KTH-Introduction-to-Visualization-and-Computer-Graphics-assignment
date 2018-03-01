@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\src\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include\GL\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include\GL\wglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E69A29DF-D012-36E3-AFA8-49921638F491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A9E81258-F943-3CCD-BD73-D7F8EDEE73F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

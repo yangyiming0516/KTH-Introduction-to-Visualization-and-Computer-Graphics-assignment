@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/glew-1.10.0/CMakeLists.txt
+  CMake does not need to re-run because E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\glew-1.10.0\CMakeFiles\generate.stamp is up-to-date.
+  glew.c
+     Creating library E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Debug/glew.lib and object E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Debug/glew.exp
+  glew.vcxproj -> E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\Debug\glew.dll

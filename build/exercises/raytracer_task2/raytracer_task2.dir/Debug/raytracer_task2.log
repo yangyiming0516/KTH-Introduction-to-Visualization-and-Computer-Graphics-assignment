@@ -1,0 +1,4 @@
+﻿  raytracer_task2.cpp
+e:\kth course\introduction to visualization and computer graphics\assignment\assignment5\assignment05\exercises\raytracer\bezierpatchmesh.hpp(44): warning C4091: '__declspec(dllimport)': ignored on left of 'rt::BezierPatchMesh::BezierPatchSample' when no variable is declared
+e:\kth course\introduction to visualization and computer graphics\assignment\assignment5\assignment05\exercises\raytracer\trianglemesh.hpp(61): warning C4091: '__declspec(dllimport)': ignored on left of 'rt::TriangleMesh::TriangleElement' when no variable is declared
+  raytracer_task2.vcxproj -> E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\Debug\raytracer_task2.exe

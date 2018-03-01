@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{096B1A64-A677-3528-8116-AFB27F81FF67}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opengl</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opengl.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opengl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opengl.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opengl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">opengl.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">opengl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">opengl.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">opengl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";opengl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\";opengl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\$(Configuration)\glew.lib;..\..\$(Configuration)\glfw3dll.lib;glu32.lib;opengl32.lib;..\..\Debug\raytracer.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Debug/opengl.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Debug/opengl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";opengl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\";opengl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\$(Configuration)\glew.lib;..\..\$(Configuration)\glfw3dll.lib;glu32.lib;opengl32.lib;..\..\Release\raytracer.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Release/opengl.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/Release/opengl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;CMAKE_INTDIR="MinSizeRel";opengl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;CMAKE_INTDIR=\"MinSizeRel\";opengl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\$(Configuration)\glew.lib;..\..\$(Configuration)\glfw3dll.lib;glu32.lib;opengl32.lib;..\..\MinSizeRel\raytracer.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/MinSizeRel/opengl.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/MinSizeRel/opengl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;CMAKE_INTDIR="RelWithDebInfo";opengl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_USE_MATH_DEFINES;WIN32_LEAN_AND_MEAN;VC_EXTRALEAN;NODEFAULTLIB;_VARIADIC_MAX=10;CMAKE_INTDIR=\"RelWithDebInfo\";opengl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\glew-1.10.0\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\include;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\raytracer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\$(Configuration)\glew.lib;..\..\$(Configuration)\glfw3dll.lib;glu32.lib;opengl32.lib;..\..\RelWithDebInfo\raytracer.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/RelWithDebInfo/opengl.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/RelWithDebInfo/opengl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/exercises/opengl/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\exercises\opengl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\BVTree.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Camera.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Collision.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CollisionGeometry.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CollisionScene.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\IndexedTriangleIO.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Intersection.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Math.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\OpenGL.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\RaytracerWindow.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\ShaderProgram.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\TriangleGeometry.hpp" />
+    <ClInclude Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\openglConfig.hpp" />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\BVTree.cpp"  />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Camera.cpp"  />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CollisionGeometry.cpp"  />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\CollisionScene.cpp"  />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\IndexedTriangleIO.cpp"  />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\Math.cpp"  />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\RaytracerWindow.cpp"  />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\ShaderProgram.cpp"  />
+    <ClCompile Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\exercises\opengl\TriangleGeometry.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/ZERO_CHECK.vcxproj">
+      <Project>321EC8A3-FC15-3C96-902C-52A351567DCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/depend/glew-1.10.0/glew.vcxproj">
+      <Project>3DD02727-8086-339D-B415-573ACF4D72D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/depend/GLFW-3.0.4/src/glfw.vcxproj">
+      <Project>529C00B8-E28D-35EC-A08D-9C7B620ECE56</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/exercises/raytracer/raytracer.vcxproj">
+      <Project>EBF7705E-8504-3F02-B894-FDD42437902B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{817182E3-563C-3906-85AB-938B778DCFFD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/GLFW-3.0.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/GLFW-3.0.4/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt;D:\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.6\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\docs\Doxyfile.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfw_config.h.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfwConfig.cmake.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfwConfigVersion.cmake.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/GLFW-3.0.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/GLFW-3.0.4/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt;D:\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.6\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\docs\Doxyfile.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfw_config.h.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfwConfig.cmake.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfwConfigVersion.cmake.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/GLFW-3.0.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/GLFW-3.0.4/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt;D:\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.6\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\docs\Doxyfile.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfw_config.h.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfwConfig.cmake.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfwConfigVersion.cmake.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/GLFW-3.0.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe "-HE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05" "-BE:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build" --check-stamp-file "E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/Assignment05/depend/GLFW-3.0.4/CMakeLists.txt;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt;D:\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.6\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\docs\Doxyfile.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfw_config.h.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfwConfig.cmake.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\src\glfwConfigVersion.cmake.in;E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\Assignment05\depend\GLFW-3.0.4\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\KTH COURSE\Introduction to Visualization and Computer Graphics\assignment\assignment5\build\depend\GLFW-3.0.4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/ZERO_CHECK.vcxproj">
+      <Project>321EC8A3-FC15-3C96-902C-52A351567DCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/KTH COURSE/Introduction to Visualization and Computer Graphics/assignment/assignment5/build/depend/GLFW-3.0.4/src/glfw.vcxproj">
+      <Project>529C00B8-E28D-35EC-A08D-9C7B620ECE56</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
