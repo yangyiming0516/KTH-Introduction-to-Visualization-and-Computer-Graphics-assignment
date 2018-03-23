@@ -1,0 +1,11 @@
+﻿  Building Custom Rule E:/Assignment02-2/code/exercises/opengl/CMakeLists.txt
+  CMake does not need to re-run because E:\Assignment02-2\build\exercises\opengl\CMakeFiles\generate.stamp is up-to-date.
+  Camera.cpp
+  IndexedTriangleIO.cpp
+  Math.cpp
+  RaytracerWindow.cpp
+  ShaderProgram.cpp
+  TriangleGeometry.cpp
+  Generating Code...
+     Creating library E:/Assignment02-2/build/Release/opengl.lib and object E:/Assignment02-2/build/Release/opengl.exp
+  opengl.vcxproj -> E:\Assignment02-2\build\Release\opengl.dll

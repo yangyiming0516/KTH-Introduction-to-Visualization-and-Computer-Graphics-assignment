@@ -1,0 +1,8 @@
+E:/Assignment02-2/build/CMakeFiles/ALL_BUILD.dir
+E:/Assignment02-2/build/CMakeFiles/ZERO_CHECK.dir
+E:/Assignment02-2/build/depend/GLFW-3.0.4/CMakeFiles/ALL_BUILD.dir
+E:/Assignment02-2/build/depend/GLFW-3.0.4/src/CMakeFiles/glfw.dir
+E:/Assignment02-2/build/depend/glew-1.10.0/CMakeFiles/glew.dir
+E:/Assignment02-2/build/exercises/opengl/CMakeFiles/opengl.dir
+E:/Assignment02-2/build/exercises/raytracer/CMakeFiles/raytracer.dir
+E:/Assignment02-2/build/exercises/task/CMakeFiles/task.dir

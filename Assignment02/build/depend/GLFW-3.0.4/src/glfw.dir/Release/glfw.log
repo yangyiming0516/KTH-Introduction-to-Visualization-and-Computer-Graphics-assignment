@@ -1,0 +1,22 @@
+﻿  Building Custom Rule E:/Assignment02-2/code/depend/GLFW-3.0.4/src/CMakeLists.txt
+  CMake does not need to re-run because E:\Assignment02-2\build\depend\GLFW-3.0.4\src\CMakeFiles\generate.stamp is up-to-date.
+  clipboard.c
+  context.c
+  gamma.c
+  init.c
+  input.c
+  joystick.c
+  monitor.c
+  time.c
+  window.c
+  win32_clipboard.c
+  win32_gamma.c
+  win32_init.c
+  win32_joystick.c
+  win32_monitor.c
+  win32_time.c
+  win32_window.c
+  wgl_context.c
+  Generating Code...
+     Creating library E:/Assignment02-2/build/Release/glfw3dll.lib and object E:/Assignment02-2/build/Release/glfw3dll.exp
+  glfw.vcxproj -> E:\Assignment02-2\build\Release\glfw3.dll
